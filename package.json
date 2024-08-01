@@ -1,0 +1,19 @@
+{
+  "name": "pear-elm",
+  "main": "index.html",
+  "type": "module",
+  "pear": {
+    "name": "elm-project",
+    "type": "desktop",
+    "gui": {
+      "height": 540,
+      "width": 720
+    }
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "elm make src/Main.elm --output=main.js"
+  },
+  "keywords": []
+}
